@@ -1,0 +1,166 @@
+/*
+===============================================================================
+Start CSS Reset
+===============================================================================
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+===============================================================================
+End CSS Reset
+===============================================================================
+*/
+
+
+nav h1{
+    font-size: 50px;
+    color: rgb(230, 62, 171);
+    font-family: rum-raisin-regular;
+    padding-top:50px;
+    text-align:center;
+}
+
+.dancing-script-regular {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+     
+  
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+    .zeyada-regular {
+  font-family: "Zeyada", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+  body{
+    font-size: 25px;
+    color:black;
+    font-family: libre-baskerville-regular, dancing-script-regular;
+    padding:0;
+    margin:0;
+}
+
+p{
+    font-size: 35px;
+    padding-top:30px;
+    font-family:dancing script;
+    padding-left:50px;
+    font-weight:bold;
+    line-height: 1.3;
+}
+
+body .body-button {
+   background-color: rgb(230, 62, 171);
+   color: white;
+   border:none;
+   padding:20px;
+   font-size:20px;
+   font-weight:bold;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   margin-top:100px;
+   width:100%;
+}
+
+footer{
+    padding:10px;
+    display:flex;
+    justify-content:center;
+}
+
+footer .footer-button{
+    background-color: rgb(230, 62, 171);
+    color:white;
+    border:none;
+    font-size:25px;
+    font-weight:bold;
+    width:300px;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    size:100px;
+    padding:10px;
+   transform:scale(0.7);
+}
+
+a{
+    text-decoration:none;
+}
+
+.cake{
+  
+    height:280px;
+    margin-top:30px;
+    width:270px;
+    
+}
+  
+.flowers{
+    height:290px;
+    width:300px;
+    margin-left:300px;
+}
+
