@@ -158,14 +158,12 @@ a{
   
 @media (max-width: 600px) {
     .grid {
-        grid-template-columns: 1fr;
         gap: 20px;
     }
 
     .flowers {
     height:290px;
     width:100px;
-    margin-left:0px;
 }
 
     
