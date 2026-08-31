@@ -153,7 +153,13 @@ a{
   
     height:300px;
     width:270px;
+	margin-left:10px;
     
+} 
+
+.flowers {
+    height:200px;
+    width:280px;
 }
   
 @media (max-width: 600px) {
@@ -162,9 +168,6 @@ a{
     }
 }
 
-    .flowers {
-    height:200px;
-    width:280px;
-}
+  
 
     
