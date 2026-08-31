@@ -69,7 +69,7 @@ End CSS Reset
 nav h1{
     font-size: 50px;
     color: rgb(230, 62, 171);
-    font-family: Dancing Script;
+    font-family: Libre Baskerville;
     padding-top:50px;
     text-align:center;
 }
@@ -77,7 +77,7 @@ nav h1{
 .dancing-script-regular {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 400px;
   font-style: normal;
 }
      
@@ -97,7 +97,7 @@ nav h1{
   body{
     font-size: 25px;
     color:black;
-    font-family:Libre Baskerville,Zeyada, Dancing Script;
+    font-family: Libre Baskerville, Zeyada, Dancing Script;
     padding:0;
     margin:0;
 }
@@ -126,7 +126,7 @@ body .body-button {
 }
 
 footer{
-	padding:10px;
+    padding:10px;
     display:flex;
     justify-content:center;
 }
