@@ -67,7 +67,7 @@ End CSS Reset
 
 
 nav h1{
-    font-size: 45px;
+    font-size: 50px;
     color: rgb(230, 62, 171);
     font-family: Libre Baskerville;
     padding-top:50px;
@@ -151,23 +151,19 @@ a{
 
 .cake{
   
-    height:300px;
+    height:280px;
+    margin-top:30px;
     width:270px;
-	margin-left:10px;
     
-} 
-
-.flowers {
-    height:200px;
-    width:280px;
 }
   
-@media (max-width: 600px) {
-    .grid {
+.flowers{
+    height:290px;
+    width:300px;
+    
+}
+
+grid {
+        grid-template-columns: 1fr;
         gap: 20px;
     }
-}
-
-  
-
-    
