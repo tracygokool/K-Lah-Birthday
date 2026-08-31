@@ -67,7 +67,7 @@ End CSS Reset
 
 
 nav h1{
-    font-size: 50px;
+    font-size: 45px;
     color: rgb(230, 62, 171);
     font-family: Libre Baskerville;
     padding-top:50px;
@@ -154,12 +154,14 @@ a{
   
     height:280px;
     width:270px;
+	margin-left:10px;
     
 }
   
 .flowers{
     height:290px;
     width:300px;
+	margin-left:5px;
     
 }
 
