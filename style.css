@@ -152,7 +152,6 @@ a{
 .cake{
   
     height:280px;
-    margin-top:30px;
     width:270px;
     
 }
@@ -166,4 +165,7 @@ a{
     .flowers {
         margin-left: 0;
     }
-
+grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
